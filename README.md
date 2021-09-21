@@ -85,3 +85,5 @@ matter .
 the method returns False.
 * dijkstra(self, src: int) -> []:
   * This method implements the Dijkstra algorithm to compute the length of the shortest path from a given vertex to all other vertices in the graph. It returns a list with one value per each vertex in the graph, where value at index 0 is the length of the shortest path from vertex SRC to vertex 0, value at index 1 is the length of the shortest path from vertex SRC to vertex 1 etc. If a certain vertex is not reachable from SRC, returned value should be INFINITY (in Python, use float(‘inf’)).
+
+**Each programs contain simple testing codes.**
